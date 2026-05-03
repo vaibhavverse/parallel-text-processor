@@ -1,32 +1,73 @@
 # Parallel Text Handling Processor
 
-## Overview
-This project analyzes large text datasets using parallel processing and NLP techniques.
+This project focuses on analyzing large-scale text datasets using Natural Language Processing (NLP) and parallel processing techniques.  
+It performs sentiment analysis on text data and visualizes the results for better understanding.
 
-## Features
+---
+
+## 📌 Project Overview
+
+Processing large text datasets sequentially can be slow.  
+This project improves performance by using **parallel processing** to analyze text efficiently.
+
+The system performs:
 - Text cleaning using regex
-- Sentiment analysis using TextBlob
-- Parallel processing using multiprocessing
-- CSV output and visualization
+- Sentiment analysis using NLP
+- Parallel processing for faster execution
+- Data visualization for insights
 
-## Tech Stack
+---
+
+## 🧠 Problem Statement
+
+Large datasets take significant time to process.  
+This project solves:
+- Slow processing of text data
+- Difficulty in extracting insights from raw text
+- Lack of scalable text analysis systems
+
+---
+
+## 🛠️ Technologies & Tools Used
+
+### Programming Language
 - Python
+
+### Libraries
 - Pandas
 - TextBlob
 - Matplotlib
+- Seaborn
+- Scikit-learn
+- Multiprocessing
+- Regex (re)
 
-## Workflow
-1. Load dataset
-2. Split into chunks
-3. Process in parallel
-4. Perform sentiment analysis
-5. Generate output and charts
+---
 
-## Output
-- output.csv (sentiment results)
-- chart.png (visualization)
+## ⚙️ Project Workflow
 
-## Future Scope
-- Real-time processing
-- AI-based recommendations
-- Multilingual support
+1. Load dataset from CSV file  
+2. Clean text (remove noise, special characters)  
+3. Apply sentiment analysis (Positive / Negative / Neutral)  
+4. Split dataset into chunks  
+5. Process chunks in parallel using multiprocessing  
+6. Combine results  
+7. Generate output CSV  
+8. Visualize results using charts  
+
+---
+
+## 📊 Visualizations
+
+The project generates:
+
+- 📌 Bar Chart → Sentiment distribution  
+- 📌 Confusion Matrix → Model evaluation  
+
+These help in understanding:
+- Overall sentiment trends  
+- Model performance  
+
+---
+
+## 📁 Repository Structure
