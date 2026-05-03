@@ -71,3 +71,100 @@ These help in understanding:
 ---
 
 ## 📁 Repository Structure
+parallel-text-processor/
+│
+├── code/
+│ └── main.py
+│
+├── input/
+│ └── Dataset-SA.csv
+│
+├── output/
+│ ├── output.csv
+│ ├── chart.png
+│ └── confusion_matrix.png
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+
+## ▶️ How to Run the Project
+
+1. Clone the repository:
+
+git clone https://github.com/vaibhavverse/parallel-text-processor.git
+
+
+2. Navigate to project folder:
+
+cd parallel-text-processor
+
+
+3. Install dependencies:
+
+pip install -r requirements.txt
+
+
+4. Run the project:
+
+python code/main.py
+
+
+---
+
+## 🎯 Key Outcomes
+
+- Efficient processing of large datasets using parallel computing  
+- Accurate sentiment classification using NLP  
+- Clean and structured data pipeline  
+- Clear visualization of results  
+
+---
+
+## 📚 Use Cases
+
+- Product review analysis (e-commerce)
+- Social media sentiment analysis
+- Customer feedback analysis
+- NLP learning projects
+- Data analysis pipelines
+
+---
+
+## 📊 Results
+
+- Successfully classified text into Positive, Negative, and Neutral  
+- Improved processing speed using multiprocessing  
+- Generated meaningful visual insights  
+- Achieved consistent sentiment prediction on large datasets  
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates how combining NLP with parallel processing improves performance and scalability.  
+It provides a practical approach to handling real-world text datasets efficiently.
+
+---
+
+## 🔮 Future Scope
+
+- Use deep learning models (BERT, LSTM) for better accuracy  
+- Real-time streaming sentiment analysis  
+- Deploy as web application (API-based)  
+- Support multi-language text processing  
+- Integrate with dashboards for live analytics  
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ✨ Author
+
+Vaibhav Kumar  
+GitHub: https://github.com/vaibhavverse
