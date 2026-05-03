@@ -1,0 +1,5 @@
+pandas
+textblob
+matplotlib
+scikit-learn
+seaborn
