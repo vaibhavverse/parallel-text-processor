@@ -79,10 +79,7 @@ parallel-text-processor/
 ├── input/
 │ └── Dataset-SA.csv
 │
-├── output/
-│ ├── output.csv
-│ ├── chart.png
-│ └── confusion_matrix.png
+├── output/ (generated at runtime)
 │
 ├── requirements.txt
 ├── README.md
@@ -93,22 +90,22 @@ parallel-text-processor/
 
 1. Clone the repository:
 
-git clone https://github.com/vaibhavverse/parallel-text-processor.git
+=> git clone https://github.com/vaibhavverse/parallel-text-processor.git
 
 
 2. Navigate to project folder:
 
-cd parallel-text-processor
+=> cd parallel-text-processor
 
 
 3. Install dependencies:
 
-pip install -r requirements.txt
+=> pip install -r requirements.txt
 
 
 4. Run the project:
 
-python code/main.py
+=> python code/main.py
 
 
 ---
