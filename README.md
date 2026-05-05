@@ -84,7 +84,17 @@ parallel-text-processor/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+## Project Structure
 
+```
+project/
+├── routes/
+├── controllers/
+├── services/
+├── middleware/
+├── app.js
+├── package.json
+```
 ## ▶️ How to Run the Project
 
 1. Clone the repository:
