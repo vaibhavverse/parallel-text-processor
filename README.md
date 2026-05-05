@@ -70,7 +70,9 @@ These help in understanding:
 
 ---
 
-## 📁 Repository Structure
+## Project Structure
+
+```
 parallel-text-processor/
 │
 ├── code/
@@ -84,16 +86,6 @@ parallel-text-processor/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-## Project Structure
-
-```
-project/
-├── routes/
-├── controllers/
-├── services/
-├── middleware/
-├── app.js
-├── package.json
 ```
 ## ▶️ How to Run the Project
 
