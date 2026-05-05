@@ -74,17 +74,16 @@ These help in understanding:
 parallel-text-processor/
 │
 ├── code/
-│ └── main.py
+│   └── main.py
 │
 ├── input/
-│ └── Dataset-SA.csv
+│   └── Dataset-SA.csv
 │
-├── output/ (generated at runtime)
+├── output/
 │
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
 
 ## ▶️ How to Run the Project
 
